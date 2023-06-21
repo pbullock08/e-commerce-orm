@@ -49,6 +49,7 @@ router.post('/', async (req, res) => {
       });
       const productTagIds = await ProductTag.bulkCreate(productTagIdArr);
       res.status(200).json(productTagIds);
+      return;
     };
     res.status(200).json(newProduct);
   } catch (err) {
@@ -91,7 +92,7 @@ router.put('/:id', async (req, res) => {
         ProductTag.bulkCreate(newProductTags),
       ]);
     }
-    return res.json(updatedProduct);
+    res.status(200).json(updatedProduct);
   } catch (err) {
     res.status(500).json(err);
   }
