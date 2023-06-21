@@ -23,3 +23,4 @@
 This application is licensed under the [MIT license.](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
   ## Video Walkthrough
+  https://github.com/pbullock08/e-commerce-orm/assets/126013657/f80cc56a-bc94-494f-8f7e-78b0ec81e016
