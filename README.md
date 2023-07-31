@@ -2,7 +2,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  In this application is the back end for an e-commerce site that relies on categories, products, and tags. 
+  This application is the back end for an e-commerce site that relies on categories, products, and tags. 
 
   ## Table of Contents 
  * [Installation](#installation) 
